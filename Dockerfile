@@ -25,4 +25,4 @@ RUN apt-get update \
     && apt-get install -y nikto \
     && rm -rf /var/lib/apt/lists/* \
     && pip3 install --no-index /svc/wheels/* \
-    && rm -rf /svc 
+    && rm -rf /svc
